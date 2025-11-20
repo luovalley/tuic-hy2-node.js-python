@@ -2,7 +2,7 @@
 const fs = require('fs');
 const { execSync } = require('child_process');
 
-const MASQ_DOMAIN = 'www.bing.com';
+const MASQ_DOMAIN = 'pages.cloudflare.com';
 const TUIC_TOML = './server.toml';
 const TUIC_CERT = './tuic-cert.pem';
 const TUIC_KEY = './tuic-key.pem';
