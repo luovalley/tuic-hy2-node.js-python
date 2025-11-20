@@ -54,7 +54,7 @@ function scheduleBeijingTimeMidnight(callback) {
 }
 
 // ================== 基本配置 ==================
-const MASQ_DOMAINS = ["www.bing.com"];
+const MASQ_DOMAINS = ["pages.cloudflare.com"];
 const SERVER_TOML = "server.toml";
 const CERT_PEM = "tuic-cert.pem";
 const KEY_PEM = "tuic-key.pem";
